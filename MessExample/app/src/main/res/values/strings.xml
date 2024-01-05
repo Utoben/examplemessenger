@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MessExample</string>
+    <string name="toplabel">Messages</string>
+    <string name="send">Send</string>
+    <string name="your_message">Your Message:</string>
+</resources>

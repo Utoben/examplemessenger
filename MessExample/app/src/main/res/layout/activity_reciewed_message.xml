@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReciewedMessageActivity">
+
+    <TextView
+        android:id="@+id/messagetext"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_margin="0dp"
+        android:background="#6858B3"
+        android:padding="12dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textDirection="inherit"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="414dp"
+        android:layout_height="69dp"
+        android:layout_margin="0dp"
+        android:background="#281A68"
+        android:padding="12dp"
+        android:text="@string/toplabel"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textDirection="inherit"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/yourtext"
+        android:layout_width="292dp"
+        android:layout_height="58dp"
+        android:layout_margin="4dp"
+        android:padding="12dp"
+        android:text="@string/your_message"
+        android:textAlignment="textStart"
+        android:textColor="@color/design_default_color_primary"
+        android:textDirection="inherit"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toptext" />
+</androidx.constraintlayout.widget.ConstraintLayout>
