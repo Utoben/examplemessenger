@@ -7,24 +7,6 @@
     tools:context=".ReciewedMessageActivity">
 
     <TextView
-        android:id="@+id/messagetext"
-        android:layout_width="390dp"
-        android:layout_height="64dp"
-        android:layout_margin="0dp"
-        android:background="#6858B3"
-        android:padding="12dp"
-        android:textAlignment="textStart"
-        android:textColor="@color/white"
-        android:textDirection="inherit"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
-
-    <TextView
         android:id="@+id/toptext"
         android:layout_width="414dp"
         android:layout_height="69dp"
@@ -56,4 +38,18 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toptext" />
+
+    <TextView
+        android:id="@+id/recievedText"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/design_default_color_primary"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourtext" />
 </androidx.constraintlayout.widget.ConstraintLayout>
